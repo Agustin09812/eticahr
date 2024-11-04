@@ -65,6 +65,41 @@ section,
     .section {
         scroll-margin-top: 66px;
     }
+
+    .btn-dark a {
+        color: #fff !important;
+    }
+}
+
+.btn-dark a {
+    height: 20px;
+    max-width: 100dvh;
+}
+
+.whatsapp-btn {
+    position: fixed;
+    background-color: #0a2b54;
+    width: 3.47rem;
+    height: 3.47rem;
+    right: 1.875rem;
+    bottom: 1.875rem;
+    z-index: 1;
+    transition: all 500ms ease;
+
+    &:hover {
+        background-color: #25d366;
+        transform: scale(1.2);
+    }
+}
+
+.whatsapp-btn i {
+    color: #fff;
+    font-size: 2rem;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
 }
 
 /*** ---------------------------------- ***/
