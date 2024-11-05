@@ -1,4 +1,4 @@
-/*** General Styling & Shared Classes ***/
+/*** Estilos Generales ***/
 
 :root {
     scroll-behavior: smooth;
@@ -104,8 +104,6 @@ section,
 
 /*** ---------------------------------- ***/
 
-/*** Spinner Start ***/
-/*** Spinner ***/
 #spinner {
     opacity: 0;
     visibility: hidden;
@@ -119,9 +117,6 @@ section,
     opacity: 1;
 }
 
-/*** Spinner End ***/
-
-/*** Button Start ***/
 .btn {
     font-weight: 600;
     transition: .5s;
@@ -184,8 +179,6 @@ section,
     background: var(--bs-primary);
 }
 
-/*** Header ***/
-
 .header {
     color: #fff;
     background-color: #fff;
@@ -245,7 +238,6 @@ section,
     }
 }
 
-/* Navmenu - Desktop */
 @media (min-width: 1200px) {
     .navmenu {
         padding: 0;
@@ -353,7 +345,6 @@ section,
     }
 }
 
-/* Navmenu - Mobile */
 @media (max-width: 1199px) {
     .mobile-nav-toggle {
         color: #333;
@@ -374,7 +365,6 @@ section,
         list-style: none;
         position: absolute;
         inset: 66px 20px 20px 20px;
-        /* inset: 60px 20px 20px 20px; */
         padding: 10px 0;
         margin: 0;
         border-radius: 6px;
@@ -481,9 +471,6 @@ section,
     }
 }
 
-/*** Header End ***/
-
-/*** Carousel Hero Header Start ***/
 .header-carousel .header-carousel-item img {
     object-fit: cover;
 }
@@ -587,10 +574,20 @@ section,
     }
 }
 
-/*** Carousel Hero Header End ***/
+.logo-carousel .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
 
+.logo-carousel .item img {
+    max-width: 100%;
+    max-height: 100px;
+    object-fit: contain;
+    padding: 10px;
+}
 
-/*** Service Start ***/
 .service .service-item {
     background: var(--bs-light);
     border-radius: 10px;
@@ -601,10 +598,6 @@ section,
     box-shadow: 0 0 45px rgba(0, 0, 0, .2);
 }
 
-/*** Service End ***/
-
-
-/*** Features Start ***/
 .feature .feature-item {
     text-align: center;
     border-radius: 10px;
@@ -622,10 +615,6 @@ section,
     border-radius: 10px;
     display: inline-block;
 }
-
-/*** Features End ***/
-
-/*** Footer Start ***/
 
 .footer {
     font-size: 14px;
@@ -731,5 +720,3 @@ section,
     }
 
 }
-
-/*** Footer End ***/
