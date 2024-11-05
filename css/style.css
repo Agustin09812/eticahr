@@ -59,6 +59,11 @@ section,
     overflow: clip;
 }
 
+.btn-dark a {
+    height: 20px;
+    max-width: 100dvh;
+}
+
 @media (max-width: 1199px) {
 
     section,
@@ -69,11 +74,6 @@ section,
     .btn-dark a {
         color: #fff !important;
     }
-}
-
-.btn-dark a {
-    height: 20px;
-    max-width: 100dvh;
 }
 
 .whatsapp-btn {
